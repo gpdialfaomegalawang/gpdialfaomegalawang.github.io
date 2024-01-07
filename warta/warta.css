@@ -22,7 +22,7 @@ div{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: var(--chili-red);
+    background-color: var(--satin-sheen-gold);
 }
 div h1{
     color: var(--default);
