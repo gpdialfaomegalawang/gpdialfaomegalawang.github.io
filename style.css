@@ -136,18 +136,11 @@ nav .navbar .right ul .responsive{
     background-color: rgb(120, 173, 222);
    
 }
-.fb{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    background-color: var(--light-harvest-gold);
-}
-
 .yt{
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: auto;
     align-items: center;    
     background-color: var(--harvest-gold);
 }
@@ -196,6 +189,9 @@ nav .navbar .right ul .responsive{
     }
     .home .right{
         display: none;
+    }
+    .yt iframe{
+        height: 40vh;
     }
     
 }
