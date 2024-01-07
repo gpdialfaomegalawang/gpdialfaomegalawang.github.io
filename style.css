@@ -170,9 +170,6 @@ nav .navbar .right ul .responsive{
         color: var(--default);
         font-size: xx-large;
     }
-    nav .navbar .right ul .responsive i:active{
-        color: var(--harvest-gold);
-    }
     .home .left{
         display: flex;
         flex-direction: column;
