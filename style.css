@@ -58,6 +58,7 @@ nav .navbar .right ul li a:hover{
 nav .navbar .right ul .responsive{
     display: none;
 }
+
 .nav-hidden{
     display: flex;
     flex-direction: column;
@@ -164,10 +165,13 @@ nav .navbar .right ul .responsive{
     nav .navbar .right ul li:not(.responsive){
         display: none;
     }
-    nav .navbar .right ul .responsive{
+    nav .navbar .right ul .responsive {
         display: block;
         color: var(--default);
-        font-size: large;
+        font-size: xx-large;
+    }
+    nav .navbar .right ul .responsive i:active{
+        color: var(--harvest-gold);
     }
     .home .left{
         display: flex;
