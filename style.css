@@ -36,6 +36,9 @@ nav .navbar .left img{
 }
 nav .navbar .left h1{
     margin-left: 4px;
+    color: var(--default);
+}
+nav .navbar .left h1 span{
     color: var(--harvest-gold);
 }
 nav .navbar .right ul{
@@ -112,7 +115,7 @@ nav .navbar .right ul .responsive{
     border: solid 2px;
 }
 .home .left h1 .span{
-    color: var(--chili-red);
+    color: var(--rosewood);
 }
 .home .left p{
     color: var(--default);
