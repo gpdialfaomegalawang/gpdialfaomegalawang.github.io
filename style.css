@@ -36,7 +36,7 @@ nav .navbar .left img{
 }
 nav .navbar .left h1{
     margin-left: 4px;
-    color: var(--light-harvest-gold);
+    color: var(--harvest-gold);
 }
 nav .navbar .right ul{
     display: flex;
