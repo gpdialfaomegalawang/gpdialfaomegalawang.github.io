@@ -15,6 +15,7 @@
     --blue: rgb(43, 138, 205);
     --light-harvest-gold: rgb(255, 240, 213);
     --solid: black;
+    --orange: orange;
 }
 
 nav .navbar{
@@ -24,6 +25,7 @@ nav .navbar{
     align-items: center;
     justify-content: space-between;
     background-color: var(--rosewood);
+
    
     
 }
@@ -66,6 +68,7 @@ nav .navbar .right ul .responsive{
     display: flex;
     flex-direction: column;
     position: absolute;
+    z-index: 1;
     width: 100%;
 }
 .nav-hidden a{
@@ -90,6 +93,7 @@ nav .navbar .right ul .responsive{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
     
     
 }
@@ -142,11 +146,33 @@ nav .navbar .right ul .responsive{
 }
 .jadwal{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     background-color: var(--light-harvest-gold);
+}
+.jadwal .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.jadwal .content div{
+    padding: 0 12px;
+}
+.jadwal .content div h3{
+    background-color: var(--orange);
+    
+}
+.jadwal .content div ul{
+    background-color: var(--default);
+
 }
 .yt{
     display: flex;
@@ -159,7 +185,7 @@ nav .navbar .right ul .responsive{
 .yt h1{
     padding-top: 12px;
     color: var(--rosewood);
-    
+    text-align: center;
 }
 .yt iframe{
     padding-top: 100px;
@@ -206,5 +232,54 @@ nav .navbar .right ul .responsive{
         height: 40vh;
     }
     
+}
+@media (max-width: 816px){
+    .jadwal .content{
+        flex-direction: column;
+        width: 90%;
+        flex-wrap: wrap;
+
+    }
+    .jadwal .content div:not(.first){
+        padding-top: 12px;
+    }
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-color: var(--solid);
+    color: var(--default);
+}
+.footer .left{
+    padding-left: 12px;
+    padding-top: 17px;
+}
+.footer .left .medsos a i{
+    color: var(--chili-red);
+    font-size: 25px;
+    padding-top: 6px;
+}
+.footer .left .medsos a i:hover{
+    
+    opacity: calc(80%);
+}   
+.footer .left .medsos a:nth-child(2){
+    padding-left: 6px;
+}
+.footer .left .img{
+    padding-top: 10px;
+}
+.footer .left .img img{
+    width: 40px;
+}
+.footer .left .img p{
+    font-size: smaller;
+    font-weight: 200;
+}
+.footer .right{
+    padding-top: 17px;
+    padding-right: 12px;
 }
 
