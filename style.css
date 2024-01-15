@@ -267,7 +267,7 @@ nav .navbar .right ul .responsive{
 }
 .footer .left h1{
     font-family: 'Satisfy', cursive;
-    font-size: 50px;
+    font-size: 65px;
 
 }
 .footer .left .member{
@@ -293,9 +293,6 @@ nav .navbar .right ul .responsive{
 .footer .right .alamat, .content{
     padding-left: 17px;
 }
-.footer .right .alamat .ct a p:hover{
-    
-}
 .footer .left .medsos a #fb{
     color: 	#1877F2;
 }
@@ -307,6 +304,12 @@ nav .navbar .right ul .responsive{
     font-size: 25px;
 }
 .footer .right .ct{
+    margin-top: 5px;
+}
+.footer .right .contact .ct p, .alamat .ct a{ /*Content margin*/
+    margin-top: 5px;
+}
+.footer .right .content .ct a p {
     margin-top: 5px;
 }
 .footer .right p{
@@ -333,6 +336,18 @@ nav .navbar .right ul .responsive{
     }
     .footer .right .alamat, .content{
         padding-left: 0px;
-        padding-top: 7px;
+        padding-top: 12px;
     }
+}
+.copyright{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--solid);
+}
+.copyright p{
+    color: var(--default);
+    font-size: xx-small;
 }
